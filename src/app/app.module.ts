@@ -16,6 +16,9 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AboutComponent } from './about/about.component';
 import { AcademicsComponent } from './academics/academics.component';
+import { CertComponent } from './cert/cert.component';
+import { AttemptsComponent } from './attempts/attempts.component';
+import { ThoughtsComponent } from './thoughts/thoughts.component';
 
 @NgModule({
   imports: [
@@ -40,6 +43,9 @@ import { AcademicsComponent } from './academics/academics.component';
     HeroSearchComponent,
     AboutComponent,
     AcademicsComponent,
+    CertComponent,
+    AttemptsComponent,
+    ThoughtsComponent
   ],
   bootstrap: [ AppComponent ]
 })
