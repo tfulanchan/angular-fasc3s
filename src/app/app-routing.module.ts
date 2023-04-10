@@ -11,7 +11,7 @@ import { ThoughtsComponent } from "./thoughts/thoughts.component";
 import { AttemptsComponent } from "./attempts/attempts.component";
 
 const routes: Routes = [
-  { path: "", redirectTo: "/dashboard", pathMatch: "full" },
+  { path: "", redirectTo: "/about", pathMatch: "full" },
   { path: "dashboard", component: DashboardComponent },
   { path: "detail/:id", component: HeroDetailComponent },
   { path: "heroes", component: HeroesComponent },
