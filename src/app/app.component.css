@@ -5,7 +5,7 @@ h1 {
   font: "Fira Sans";
 }
 nav {
-  justify-item: center;
+  justify-items: center;
 }
 nav a {
   padding: 1rem;
